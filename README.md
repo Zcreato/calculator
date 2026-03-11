@@ -14,17 +14,17 @@
 - ✅ 使用 CMake 构建，支持现代开发流程
 
 ## 📂 项目结构
+```text
 calculator/
-├── CMakeLists.txt # 根 CMake 构建配置
-├── README.md # 本说明文件
-├── LICENSE # 许可证文件
+├── CMakeLists.txt      # 根 CMake 构建配置
+├── README.md           # 本说明文件
+├── LICENSE             # 许可证文件
 ├── include/
-│ └── calc.h # 公共接口头文件（函数声明）
+│   └── calc.h          # 公共接口头文件（函数声明）
 └── src/
-├── main.c # 程序入口（用户交互）
-└── calc.c # 核心计算逻辑实现
-
-
+    ├── main.c          # 程序入口（用户交互）
+    └── calc.c          # 核心计算逻辑实现
+```
 ## 🛠️ 快速开始
 
 ### 系统要求
