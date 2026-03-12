@@ -12,5 +12,6 @@
 
 
 int calculate(double a, char op, double b, double *result);
+void print(void);
 
 #endif // CALC_H

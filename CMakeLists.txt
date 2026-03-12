@@ -19,6 +19,7 @@ include_directories(include)
 set(SOURCES
     src/main.c
     src/calc.c
+    src/star.c
 )
 
 # 创建可执行文件
